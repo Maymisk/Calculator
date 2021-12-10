@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgba(67, 168, 182, 0.3);
+    border: 1px solid black;
+}
+
+button:hover {
+    background: cadetblue;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: minmax(150px, auto) repeat(5, 100px);
+    align-content: center;
+    justify-content: center;
+}
+
+.twoFr {
+    grid-column: span 2;
+}
+
+#calcDisplay {
+    grid-column: span 4;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#previousOperator {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#followingOperator {
+    color: white;
+    font-weight: normal;
+    font-size: 32px;
+}
