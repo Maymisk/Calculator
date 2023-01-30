@@ -17,6 +17,17 @@ Back in 2021, I'd heard a calculator was a good project for beginners. I decided
 Instead of doing it alone, I followed through a [**Web Dev Simplified video**](https://www.youtube.com/watch?v=j59qQ7YWLxw), and made sure I understood every bit of code I wrote.
 
 
+## Installation
+
+Install this project and play around with it 😝
+
+```bash
+git clone https://github.com/Maymisk/Calculator.git
+```
+
+Once you're done cloning, simply open the index.html file
+    
+
 ## Functionalities
 
 - Basic math operations
